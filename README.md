@@ -5,6 +5,7 @@
 -->
 Revised version of [formidable](https://github.com/node-formidable/formidable)
 
+1. fixture
 
 The following code will report an error that the plugins file cannot be found in the packaging situation, because the file directory has changed due to packaging
 
@@ -15,3 +16,5 @@ The following code will report an error that the plugins file cannot be found in
     this.use(require(path.join(__dirname, 'plugins', `${plgName}.js`)));
   });
 ```
+
+2. add Typeings
